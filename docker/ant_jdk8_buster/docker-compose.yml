@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+    app:
+        image: myant:1.10.3_oracle8-121
+        volumes:
+            - ${WORKDIR}:/root/work
+        working_dir: /root/work
+        entrypoint: >
+            sh -c "
+                sh /root/work/build.sh
+            "
