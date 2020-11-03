@@ -1,0 +1,8 @@
+*.*
+
+!.gitignore
+
+!docker/ant_jdk8_buster/*
+
+!prj/*
+!prj/src/**/*
