@@ -1,6 +1,7 @@
 *.*
 
 !.gitignore
+!*.md
 
 !docker/ant_jdk8_buster/*
 
